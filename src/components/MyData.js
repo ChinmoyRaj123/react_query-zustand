@@ -1,6 +1,5 @@
 import React from 'react';
 import { useQuery } from 'react-query';
-import create from 'zustand';
 import useMyStore from '../App/MyStore';
 
 const fetchPeople = async () => {
